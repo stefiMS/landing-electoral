@@ -5,6 +5,7 @@
 .sideBar ul {
     list-style: none;
     width: 100%;
+    padding-left: 0;
 }
 .sideBar ul li:hover {
     cursor: pointer;
