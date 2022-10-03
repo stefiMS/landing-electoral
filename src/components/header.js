@@ -13,7 +13,7 @@ export default function Header (){
     <header className={styles.header} >
         <div className={styles.header__return}> 
             <span className={styles.header__returnSpan}>Regresar a</span>
-            <Image 
+                <Image 
                 src={logoGLR}
                 alt="logo-GLR"
                 width={90}
@@ -21,14 +21,19 @@ export default function Header (){
                 className={styles.header__returnItem}
                 id={styles.logoGLR} />
             <span  className={styles.header__returnItem}>
+               <a href="https://larepublica.pe/">
                 <Image 
-                    src={returnBtn} 
-                    alt="return" 
-                    id={styles.returnBtn}
-                    width={15}
-                    height={15}
-                />
+                        src={returnBtn} 
+                        alt="return" 
+                        id={styles.returnBtn}
+                        width={15}
+                        height={15}
+                        
+                    />
+               </a>
+               
             </span>
+        
         </div>
         <nav className={styles.nav}>
             <div className={styles.nav__divLogo}>
