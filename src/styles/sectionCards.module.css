@@ -1,0 +1,14 @@
+.section{
+    display: flex;
+    flex-direction: column;
+}
+
+.more{
+    margin-left: 2%;
+    margin-bottom: 24px;
+    cursor: pointer;
+}
+
+.more:hover{
+    color: rgb(65, 65, 65);
+}

@@ -1,0 +1,29 @@
+.sideBar{
+    padding: 2%;
+}
+
+.sideBar ul {
+    list-style: none;
+    width: 100%;
+}
+.sideBar ul li:hover {
+    cursor: pointer;
+    background-color: #e9e0e0a5;
+}
+.articles{
+    border-bottom: 2px solid #e4dfdf;
+    padding: 2% 0 ;
+}
+
+.articles__div{
+    border-left: 2px solid rgb(232, 9, 9);
+    padding: 0 3%;
+}
+
+.p{
+    font-weight: 700;
+    color: black;
+}
+.span{
+    color:rgb(195, 190, 190),
+}
